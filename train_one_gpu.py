@@ -262,6 +262,10 @@ def main():
     ).to(device)
     medsam_model.train()
 
+
+
+
+
     print(
         "Number of total parameters: ",
         sum(p.numel() for p in medsam_model.parameters()),
